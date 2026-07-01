@@ -1,16 +1,60 @@
-# React + Vite
+# Job Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based job application tracker that helps users manage their job applications, track progress, and view dashboard insights.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dashboard overview with summary cards and charts
+- Add, edit, and delete job applications
+- Search and filter applications by status or keyword
+- Light and dark theme support
+- Persistent storage using localStorage
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Recharts
+- Lucide React
+- React Router
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/ayeshahaseeb893-max/Jobb-Tracker.git
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit
+   ```bash
+   http://localhost:5173
+   ```
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+- src/pages — dashboard and applications pages
+- src/components — reusable UI components such as cards, charts, sidebar, and modal
+- src/App.jsx — application routing and theme handling
+
+## License
+
+This project is open source and available under the MIT License.
